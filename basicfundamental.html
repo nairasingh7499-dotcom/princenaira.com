@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body background="prince.jpg">
+<center><h1><font color="white"><u>STUDENT REGISTRATION FORM</u></font></h1></center>
+<table align="center" cellpadding="10"border="5">
+<!-------First Name-------------------------------------------------->
+<tr>
+<td><font color="white">NAME</font></td>
+<td><input type="text"name="First Name"maxlength="40"/>
+(max 40 characters a-z and A-Z)
+</td>
+</tr>
+
+<!-------Course Applied for -------------------------------------------->
+<tr>
+<td><font color="white">Course Applied for</font> </td>
+<td>
+<select name="course">
+<option value="MCA">MCA</option>
+<option value="BCA">BCA</option>
+<option value="PGDCA">PGDCA</option>
+<option value="O-LEVEL">O-LEVEL</option>
+</select>
+</td>
+</tr>
+<!-------Gender -------------------------------------------------------------->
+<tr>
+<td><font color="white">GENDER</font></td>
+<td>
+<font color="white">Male</font><input type="radio"name="gender"value="Male"/>
+<font color="white">Female</font><input type="radio"name="Gender"value="Female"/>
+</td>
+</tr>
+
+<!-------Address ----------------------------------------------------------------->
+<tr>
+<td><font color="white">ADDRESS</font><br/><br/></br></td>
+<td><textarea name="Address"rows="4"cols="30"></textarea></td>
+</tr>
+
+<!-------Country -------------------------------------------------------->
+<tr>
+<td><font color="white">COUNTRY</font></td>
+<td><input type="text"name="Country"value="India"readonly="readonly"/></td>
+</tr>
+
+<!------Hobbies -------------------------------------------------------->
+
+<tr>
+<td><font color="white">HOBBIES</font><br/><br/><br/></td>
+<td>
+<font color="white">Drawing</font>
+<input type="checkbox"name="Hobby Drawing"value="Drawing"/>
+<font color="white">Singing</font>
+<input type="checkbox"name="Hobby Singing"value="Singing"/>
+<font color="white">Dancing</font>
+<input type="checkbox"name="Hobby Dancing"value="Dancing"/>
+<font color="white">Sketching</font>
+<input type="checkbox"name="Hobby Sketching"value="Sketching"/>
+</td>
+</tr>
+
+<!-------Submit and Reset ---------------------------------------------->
+
+<tr>
+<td colspan="2"align="center">
+<input type="submit"value="Submit">
+<input type="reset"value="Reset">
+</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
